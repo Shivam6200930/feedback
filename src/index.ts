@@ -7,7 +7,7 @@ const port = 5000;
 
 // Enable CORS with specific options
 const corsOptions = {
-  origin: 'https://feedback-frontend-puce.vercel.app/', 
+  origin: 'https://feedback-frontend-puce.vercel.app', 
   methods: 'GET,POST', 
   allowedHeaders: 'Content-Type,Authorization'
 };
